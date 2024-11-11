@@ -1,0 +1,139 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.absensi-form, .rekap {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.3);
+}
+
+.submit-btn {
+    background: #6a11cb;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #2575fc;
+}
+
+.rekap table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.rekap th {
+    background-color: #6a11cb;
+    color: #fff;
+    padding: 10px;
+}
+
+.rekap td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.rekap-buttons button {
+    background: #2575fc;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.rekap-buttons button:hover {
+    background: #6a11cb;
+}
+
+.rekap-detail table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.rekap-detail th, .rekap-detail td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.rekap-detail th {
+    background-color: #4e54c8;
+    color: #fff;
+}
+
+.rekap-detail td {
+    background-color: #f9f9f9;
+}
+
+.rekap-detail td:nth-child(3) {
+    text-align: center;
+}
+
+.rekap-detail td:nth-child(2) {
+    text-transform: capitalize;
+}
+
+footer {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 0.9em;
+}
+/* Gaya untuk dropdown status */
+select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    background-color: #fff;
+    color: #333;
+}
+
+select:focus {
+    border-color: #6a11cb;
+    outline: none;
+}
+
